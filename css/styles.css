@@ -8,10 +8,22 @@
 .main-image
 {
     width: 500px;
-    border: 2px solid white;
+    border: 2px solid transparent;
 }
 
 .main-image:hover
 {
     border: 2px solid deepskyblue;
+}
+
+.quote::before
+{
+    content: '"';
+    font-size: 24px;
+}
+
+.quote::after
+{
+    content: '"';
+    font-size: 24px;
 }
